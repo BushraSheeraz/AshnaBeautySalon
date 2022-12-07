@@ -41,6 +41,20 @@ namespace BeautySalon.Controllers
             return View();
         }
 
+        public ActionResult Signup()
+        {
+            ViewBag.Message = "user signup page";
+
+            return View();
+        }
+
+
+        public ActionResult Login()
+        {
+            ViewBag.Message = "user login page";
+
+            return View();
+        }
 
     }
 }
